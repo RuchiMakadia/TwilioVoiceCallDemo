@@ -580,7 +580,7 @@ class ViewController: UIViewController, TVONotificationDelegate, TVOCallDelegate
         let accessToken = accessTokenEndpoint
         
         let connectOptions: TVOConnectOptions = TVOConnectOptions(accessToken: accessToken) { (builder) in
-            builder.params = [twimlParamTo : "", "from" : ""] // here to param is to and from number
+            builder.params = [twimlParamTo : "", "from" : ""] //add your to and from number
             builder.uuid = uuid
         }
         
