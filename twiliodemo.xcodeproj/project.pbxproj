@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB58677123E81B2B00A871C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58677023E81B2B00A871C3 /* AppDelegate.swift */; };
+		AB58677323E81B2B00A871C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58677223E81B2B00A871C3 /* ViewController.swift */; };
+		AB58677623E81B2B00A871C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58677423E81B2B00A871C3 /* Main.storyboard */; };
+		AB58677823E81B2C00A871C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB58677723E81B2C00A871C3 /* Assets.xcassets */; };
+		AB58677B23E81B2C00A871C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB58677923E81B2C00A871C3 /* LaunchScreen.storyboard */; };
+		AB58678623E81B2C00A871C3 /* twiliodemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58678523E81B2C00A871C3 /* twiliodemoTests.swift */; };
+		AB58679123E81B2C00A871C3 /* twiliodemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58679023E81B2C00A871C3 /* twiliodemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB58678223E81B2C00A871C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58676523E81B2B00A871C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58676C23E81B2B00A871C3;
+			remoteInfo = twiliodemo;
+		};
+		AB58678D23E81B2C00A871C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB58676523E81B2B00A871C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB58676C23E81B2B00A871C3;
+			remoteInfo = twiliodemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB58676D23E81B2B00A871C3 /* twiliodemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twiliodemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58677023E81B2B00A871C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB58677223E81B2B00A871C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB58677523E81B2B00A871C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB58677723E81B2C00A871C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB58677A23E81B2C00A871C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB58677C23E81B2C00A871C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58678123E81B2C00A871C3 /* twiliodemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twiliodemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58678523E81B2C00A871C3 /* twiliodemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twiliodemoTests.swift; sourceTree = "<group>"; };
+		AB58678723E81B2C00A871C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB58678C23E81B2C00A871C3 /* twiliodemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twiliodemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB58679023E81B2C00A871C3 /* twiliodemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twiliodemoUITests.swift; sourceTree = "<group>"; };
+		AB58679223E81B2C00A871C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB58676A23E81B2B00A871C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58677E23E81B2C00A871C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58678923E81B2C00A871C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB58676423E81B2B00A871C3 = {
+			isa = PBXGroup;
+			children = (
+				AB58676F23E81B2B00A871C3 /* twiliodemo */,
+				AB58678423E81B2C00A871C3 /* twiliodemoTests */,
+				AB58678F23E81B2C00A871C3 /* twiliodemoUITests */,
+				AB58676E23E81B2B00A871C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB58676E23E81B2B00A871C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB58676D23E81B2B00A871C3 /* twiliodemo.app */,
+				AB58678123E81B2C00A871C3 /* twiliodemoTests.xctest */,
+				AB58678C23E81B2C00A871C3 /* twiliodemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB58676F23E81B2B00A871C3 /* twiliodemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB58677023E81B2B00A871C3 /* AppDelegate.swift */,
+				AB58677223E81B2B00A871C3 /* ViewController.swift */,
+				AB58677423E81B2B00A871C3 /* Main.storyboard */,
+				AB58677723E81B2C00A871C3 /* Assets.xcassets */,
+				AB58677923E81B2C00A871C3 /* LaunchScreen.storyboard */,
+				AB58677C23E81B2C00A871C3 /* Info.plist */,
+			);
+			path = twiliodemo;
+			sourceTree = "<group>";
+		};
+		AB58678423E81B2C00A871C3 /* twiliodemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB58678523E81B2C00A871C3 /* twiliodemoTests.swift */,
+				AB58678723E81B2C00A871C3 /* Info.plist */,
+			);
+			path = twiliodemoTests;
+			sourceTree = "<group>";
+		};
+		AB58678F23E81B2C00A871C3 /* twiliodemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB58679023E81B2C00A871C3 /* twiliodemoUITests.swift */,
+				AB58679223E81B2C00A871C3 /* Info.plist */,
+			);
+			path = twiliodemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB58676C23E81B2B00A871C3 /* twiliodemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58679523E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemo" */;
+			buildPhases = (
+				AB58676923E81B2B00A871C3 /* Sources */,
+				AB58676A23E81B2B00A871C3 /* Frameworks */,
+				AB58676B23E81B2B00A871C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twiliodemo;
+			productName = twiliodemo;
+			productReference = AB58676D23E81B2B00A871C3 /* twiliodemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB58678023E81B2C00A871C3 /* twiliodemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58679823E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemoTests" */;
+			buildPhases = (
+				AB58677D23E81B2C00A871C3 /* Sources */,
+				AB58677E23E81B2C00A871C3 /* Frameworks */,
+				AB58677F23E81B2C00A871C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58678323E81B2C00A871C3 /* PBXTargetDependency */,
+			);
+			name = twiliodemoTests;
+			productName = twiliodemoTests;
+			productReference = AB58678123E81B2C00A871C3 /* twiliodemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB58678B23E81B2C00A871C3 /* twiliodemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB58679B23E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemoUITests" */;
+			buildPhases = (
+				AB58678823E81B2C00A871C3 /* Sources */,
+				AB58678923E81B2C00A871C3 /* Frameworks */,
+				AB58678A23E81B2C00A871C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB58678E23E81B2C00A871C3 /* PBXTargetDependency */,
+			);
+			name = twiliodemoUITests;
+			productName = twiliodemoUITests;
+			productReference = AB58678C23E81B2C00A871C3 /* twiliodemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB58676523E81B2B00A871C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = eHeuristic;
+				TargetAttributes = {
+					AB58676C23E81B2B00A871C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AB58678023E81B2C00A871C3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB58676C23E81B2B00A871C3;
+					};
+					AB58678B23E81B2C00A871C3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AB58676C23E81B2B00A871C3;
+					};
+				};
+			};
+			buildConfigurationList = AB58676823E81B2B00A871C3 /* Build configuration list for PBXProject "twiliodemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB58676423E81B2B00A871C3;
+			productRefGroup = AB58676E23E81B2B00A871C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB58676C23E81B2B00A871C3 /* twiliodemo */,
+				AB58678023E81B2C00A871C3 /* twiliodemoTests */,
+				AB58678B23E81B2C00A871C3 /* twiliodemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB58676B23E81B2B00A871C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58677B23E81B2C00A871C3 /* LaunchScreen.storyboard in Resources */,
+				AB58677823E81B2C00A871C3 /* Assets.xcassets in Resources */,
+				AB58677623E81B2B00A871C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58677F23E81B2C00A871C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58678A23E81B2C00A871C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB58676923E81B2B00A871C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58677323E81B2B00A871C3 /* ViewController.swift in Sources */,
+				AB58677123E81B2B00A871C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58677D23E81B2C00A871C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58678623E81B2C00A871C3 /* twiliodemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB58678823E81B2C00A871C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB58679123E81B2C00A871C3 /* twiliodemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB58678323E81B2C00A871C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58676C23E81B2B00A871C3 /* twiliodemo */;
+			targetProxy = AB58678223E81B2C00A871C3 /* PBXContainerItemProxy */;
+		};
+		AB58678E23E81B2C00A871C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB58676C23E81B2B00A871C3 /* twiliodemo */;
+			targetProxy = AB58678D23E81B2C00A871C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB58677423E81B2B00A871C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58677523E81B2B00A871C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB58677923E81B2C00A871C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB58677A23E81B2C00A871C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB58679323E81B2C00A871C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB58679423E81B2C00A871C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB58679623E81B2C00A871C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB58679723E81B2C00A871C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB58679923E81B2C00A871C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twiliodemo.app/twiliodemo";
+			};
+			name = Debug;
+		};
+		AB58679A23E81B2C00A871C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twiliodemo.app/twiliodemo";
+			};
+			name = Release;
+		};
+		AB58679C23E81B2C00A871C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twiliodemo;
+			};
+			name = Debug;
+		};
+		AB58679D23E81B2C00A871C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twiliodemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.twiliodemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twiliodemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB58676823E81B2B00A871C3 /* Build configuration list for PBXProject "twiliodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58679323E81B2C00A871C3 /* Debug */,
+				AB58679423E81B2C00A871C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58679523E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58679623E81B2C00A871C3 /* Debug */,
+				AB58679723E81B2C00A871C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58679823E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58679923E81B2C00A871C3 /* Debug */,
+				AB58679A23E81B2C00A871C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB58679B23E81B2C00A871C3 /* Build configuration list for PBXNativeTarget "twiliodemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB58679C23E81B2C00A871C3 /* Debug */,
+				AB58679D23E81B2C00A871C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB58676523E81B2B00A871C3 /* Project object */;
+}
